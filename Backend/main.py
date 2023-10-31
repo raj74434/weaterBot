@@ -10,7 +10,7 @@ CORS(main)
 api_key=""
 openai.api_key = api_key
 
-wkey="d5a257e58bbbbcb2186b37ebf3a761a3"
+wkey=""
 def get_current_weather(location, unit="fahrenheit"):
     """Get the current weather in a given location"""
     response = requests.get("https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+"d5a257e58bbbbcb2186b37ebf3a761a3"+"&units=metric&sys=unix")
